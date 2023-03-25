@@ -21,6 +21,5 @@ class Vector:
 vec1 = Vector(1, 3, 6)
 vec2 = Vector(2, 4, 1)
 vec3 = vec1.__abs__(vec2)
-print(vec3.x, vec3.y, vec3.z)
 printVec = '; '.join([str(vec3.x), str(vec3.y), str(vec3.z)])
 print('(' + printVec + ')')
